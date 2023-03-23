@@ -1,0 +1,43 @@
+.hideScroll {
+  overflow: hidden;
+}
+
+.greeting {
+  margin: 1em 0 0.5em 1em;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em 1em;
+  width: 20%;
+  max-width: 950px;
+  border-radius: 15px;
+  border: 2px solid rgba(192, 105, 250, 0.6980392157);
+  transition-duration: 700ms;
+  transition-timing-function: ease;
+}
+.search::-moz-placeholder {
+  color: rgba(192, 105, 250, 0.6980392157);
+  opacity: 0.8;
+}
+.search:-ms-input-placeholder {
+  color: rgba(192, 105, 250, 0.6980392157);
+  opacity: 0.8;
+}
+.search::placeholder {
+  color: rgba(192, 105, 250, 0.6980392157);
+  opacity: 0.8;
+}
+
+.search:focus {
+  border: solid 3px rgba(192, 105, 250, 0.6980392157);
+  width: 90%;
+  outline: none;
+}/*# sourceMappingURL=PatientSelect.css.map */

@@ -1,0 +1,18 @@
+.hideScroll {
+  overflow: hidden;
+}
+
+.App {
+  color: #c069fa;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../resources/watercolor-abstract-purple-background_23-2149120778.webp");
+}
+
+.accented {
+  color: rgba(192, 105, 250, 0.6980392157);
+}/*# sourceMappingURL=Home.css.map */

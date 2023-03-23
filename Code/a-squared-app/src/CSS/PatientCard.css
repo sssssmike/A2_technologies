@@ -1,0 +1,40 @@
+.hideScroll {
+  overflow: hidden;
+}
+
+.patient-card {
+  display: flex;
+  width: 90%;
+  max-width: 950px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 1.5em auto;
+  padding: 0.5em 1em;
+  box-shadow: 5px 5px 10px 1px lightgrey;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.patient-card:hover {
+  box-shadow: 9px 9px 18px 1px lightgrey;
+  transform: scale(1.02);
+}
+
+.patient-name p,
+.patient-name h3 {
+  margin: 0;
+}
+
+.patient-data {
+  width: 20%;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.patient-data p {
+  margin: 0;
+}
+
+.data-item {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=PatientCard.css.map */

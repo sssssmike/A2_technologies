@@ -1,0 +1,35 @@
+@import "variables";
+
+.patient-card {
+  display: flex;
+  width: 90%;
+  max-width: 950px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 1.5em auto;
+  padding: 0.5em 1em;
+  @include boxShadow;
+}
+
+.patient-name {
+  p,
+  h3 {
+    margin: 0;
+  }
+}
+
+.patient-data {
+  width: 20%;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  p {
+    margin: 0;
+  }
+}
+
+.data-item {
+  display: flex;
+  justify-content: space-between;
+}

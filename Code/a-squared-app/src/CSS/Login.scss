@@ -1,0 +1,28 @@
+@import "variables";
+
+.login-container {
+  @include FlexCenter;
+  width: 100%;
+}
+
+form {
+  @include FlexCenter;
+  flex-direction: column;
+  width: 50%;
+  input {
+    padding: 0.5em 1em;
+    width: 50%;
+    margin: 0.75em;
+    margin-top: 0;
+    font-size: 1rem;
+  }
+  button {
+    width: 50%;
+    font-size: 1rem;
+  }
+  span {
+    width: 50%;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+}

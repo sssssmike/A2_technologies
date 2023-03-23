@@ -1,0 +1,59 @@
+@import "variables";
+
+@mixin sectionSplitting {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid grey;
+}
+
+.statistics-container {
+  @include Card;
+  //   align-items: baseline;
+  flex-direction: column;
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  margin-left: 3em;
+  width: 20%;
+  p,
+  h2,
+  h3 {
+    line-height: 3px;
+  }
+  .statistics-text {
+    @include FlexCenter;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: flex-start;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    width: 90%;
+    border-bottom: 1px solid grey;
+  }
+}
+
+.content-container {
+  width: 80%;
+  float: right;
+}
+
+.data-container {
+  @include FlexCenter;
+  @include sectionSplitting;
+  flex-direction: column;
+  .Note {
+    @include Card;
+    width: 40%;
+    white-space: pre-wrap;
+  }
+  button {
+    margin: 1em;
+  }
+  showmore {
+    cursor: pointer;
+    @include scaleOutUnderline(rgb(92, 92, 92));
+    margin-top: 1em;
+    color: rgb(92, 92, 92);
+  }
+}

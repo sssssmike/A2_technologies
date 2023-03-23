@@ -1,0 +1,96 @@
+@import "variables";
+
+.patient-form {
+  @include FlexCenter;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+  input {
+    width: 40%;
+    padding: 0.5em 0;
+  }
+  select {
+    width: 100%;
+    padding: 0.5em 0em;
+  }
+}
+
+.form-input-item {
+  @include FlexCenter;
+  width: 40.5%;
+  margin: 0.75em;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.form-title {
+  @include FlexCenter;
+  width: 100%;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  p {
+    cursor: pointer;
+    position: absolute;
+    right: 1.5em;
+  }
+}
+
+.form-container {
+  @include staticBoxShadow;
+  display: flex;
+  align-items: center;
+  z-index: 12;
+  flex-direction: column;
+  top: 25vh;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  width: 70%;
+  max-width: 800px;
+  height: 50vh;
+  min-height: 500px;
+  background-color: white;
+}
+.shield {
+  @include shield;
+}
+
+.form-item {
+  @include FlexCenter;
+  justify-content: space-between;
+  width: 90%;
+  margin: 4px;
+}
+
+.form-inputs {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.patient-form {
+  margin-top: auto;
+  margin-bottom: auto;
+  button {
+    padding: 1em 1em;
+    margin-top: 1em;
+    font-size: 1rem;
+  }
+}
+
+// .ul-main {
+//   list-style-type: none;
+//   margin: 0;
+//   padding: 0;
+//   font-size: 16px;
+//   font-weight: bold;
+// }
+
+// .ul-main li {
+//   margin-top: 4px;
+//   margin-bottom: 4px;
+// }
+
+// .labels {
+//   margin-right: 8px;
+// }

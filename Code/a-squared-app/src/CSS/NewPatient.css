@@ -1,0 +1,98 @@
+.hideScroll {
+  overflow: hidden;
+}
+
+.patient-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+}
+.patient-form input {
+  width: 40%;
+  padding: 0.5em 0;
+}
+.patient-form select {
+  width: 100%;
+  padding: 0.5em 0em;
+}
+
+.form-input-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40.5%;
+  margin: 0.75em;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.form-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.form-title p {
+  cursor: pointer;
+  position: absolute;
+  right: 1.5em;
+}
+
+.form-container {
+  box-shadow: 5px 5px 10px 1px lightgrey;
+  display: flex;
+  align-items: center;
+  z-index: 12;
+  flex-direction: column;
+  top: 25vh;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  width: 70%;
+  max-width: 800px;
+  height: 50vh;
+  min-height: 500px;
+  background-color: white;
+}
+
+.shield {
+  position: absolute;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.132);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 4px;
+}
+
+.form-inputs {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.patient-form {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.patient-form button {
+  padding: 1em 1em;
+  margin-top: 1em;
+  font-size: 1rem;
+}/*# sourceMappingURL=NewPatient.css.map */

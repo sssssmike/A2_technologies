@@ -1,0 +1,39 @@
+.hideScroll {
+  overflow: hidden;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5em;
+  width: 50%;
+  max-width: 500px;
+  position: absolute;
+  top: 0.5em;
+  right: 0;
+  justify-content: space-between;
+}
+.header-container span {
+  position: relative;
+  cursor: pointer;
+  padding: 0.25em;
+}
+.header-container span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid rgba(192, 105, 250, 0.6980392157);
+  opacity: 0;
+  transition: opacity 100ms;
+  transition: 0.5s;
+}
+.header-container span:hover:after, .header-container span:focus:after {
+  width: 100%;
+  opacity: 1;
+}
+.header-container span:hover {
+  color: rgba(192, 105, 250, 0.6980392157);
+}/*# sourceMappingURL=Header.css.map */
